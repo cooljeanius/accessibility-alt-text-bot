@@ -22,8 +22,8 @@
     },
     "dependencies": {
         "@github/markdownlint-github": "^0.8.2",
-        "js-yaml": "^4.2.0",
-        "markdown-it": "^14.2.0",
+        "js-yaml": "^4.3.0",
+        "markdown-it": "^14.3.0",
         "markdownlint": "^0.41.0"
     }
 }
