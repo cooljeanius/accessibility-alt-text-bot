@@ -21,7 +21,7 @@
         "jest": "^30.4.2"
     },
     "dependencies": {
-        "@github/markdownlint-github": "^0.8.2",
+        "@github/markdownlint-github": "^0.8.3",
         "js-yaml": "^4.3.0",
         "markdown-it": "^14.3.0",
         "markdownlint": "^0.41.0"
