@@ -1,9 +1,10 @@
+---
 version: 2
 updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'monthly'
     commit-message:
       prefix: "chore(deps)"
     groups:
@@ -11,11 +12,10 @@ updates:
         applies-to: version-updates
         update-types:
           - "minor"
-          - "patch"
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'monthly'
     commit-message:
       prefix: "chore(deps)"
     groups:
@@ -23,4 +23,3 @@ updates:
         applies-to: version-updates
         update-types:
           - "minor"
-          - "patch"
