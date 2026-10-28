@@ -12,6 +12,8 @@ updates:
         applies-to: version-updates
         update-types:
           - "minor"
+    cooldown:
+      default-days: 7
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
@@ -23,3 +25,5 @@ updates:
         applies-to: version-updates
         update-types:
           - "minor"
+    cooldown:
+      default-days: 7
